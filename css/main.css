@@ -8,10 +8,20 @@ a {
     color: black;
 }
 
+footer {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding: 8px;
+    background-color: rgb(21,105,160);
+    color: white;
+    font-size: 17px;
+}
+
 header {
     background: rgb(0, 0, 0, 12.5%);
-    padding-left: 3vw;
-    padding-right: 5vw;
+    padding-left: 7vw;
+    padding-right: 8vw;
     font-size: 20px;
     font-weight: bold;
 }
@@ -72,7 +82,7 @@ nav a::before {
     top: 0;
     width: 0%;
 
-    transition: all ease-in-out 250ms;
+    transition: all ease-in-out 300ms;
 }
 
 nav a:hover::before {
@@ -81,6 +91,7 @@ nav a:hover::before {
 
 #thetopfp {
     margin-left: 4vw;
+    margin-right: 0;
 }
 
 #frontheader {
@@ -108,7 +119,7 @@ nav a:hover::before {
 .box2,
 .box3 {
     border: 3px solid rgb(21,105,160);
-    border-radius: 3px;
+    border-radius: 6px;
     padding: 5px;
 }
 
@@ -117,7 +128,6 @@ nav a:hover::before {
     color: rgb(24, 115, 185);
 }
 
-.thetop {
-    margin: 4vw;
-    margin-top: 3vw;
+.mainpart {
+    margin-left: 4vw;
 }
